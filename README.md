@@ -1,2 +1,2 @@
-# code
-Helpful code of nasm, python &amp; cpp.
+# codes
+Helpful code of nasm, python, java & cpp.
