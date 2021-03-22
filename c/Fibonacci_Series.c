@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int i,a,b,c,d;
+    int i,a,b,c,d,s;
     printf("\nWelcome to Fibonacci Series Generator\n");
     printf("Mention Fibonacci Series Length: ");
     scanf("%d", &a);
@@ -15,24 +15,26 @@ int main()
     }
     if (a==1)
     {
-        printf("%d",b);
+        printf("%d ",b);
         
     }
     if (a==2)
     {
-        printf("%d%d",b,c);
+        printf("%d %d ",b,c);
         
     }
     if (a>=3)
     {
-        printf("%d%d",b,c);
+        printf("%d %d ",b,c);
         a=a-2;
         d=b+c;
+        c=0;
         for(i=0;i<a;i++)
         {
-            printf("%d",d);
+            s=d+c;
+            printf("%d ",s);
             c=d;
-            d=d+c;           
+            d=s;
         }
     }
     return 0;
