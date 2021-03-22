@@ -32,8 +32,7 @@ int main()
         {
             printf("%d",d);
             c=d;
-            d=d+c;
-            
+            d=d+c;           
         }
     }
     return 0;
