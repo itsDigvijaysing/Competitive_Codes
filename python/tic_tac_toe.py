@@ -1,4 +1,6 @@
-#Learning Code
+# Tic Tac Toe code
+# Learning Code
+
 import numpy as np
 import random
 from time import sleep

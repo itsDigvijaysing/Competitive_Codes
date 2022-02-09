@@ -1,9 +1,12 @@
+# Max & Min finder (Input in One line List)
+# Python Program which take Input of list in single line & give there Max & Min Value
+
 #If split input needed
 # numbers = input_from_user.split()
 # numbers=map(int, numbers)
+# n=int(input())
 
 
-n=int(input())
 lst = []
 
 for i in map(int,input().split()):
@@ -12,5 +15,6 @@ for i in map(int,input().split()):
 A=max(lst)
 B=min(lst)
 
-
-print(A+B)
+print("Max No in List is : ",A)
+print("Min No in List is : ",B)
+print("Max+Min: ",A+B)
