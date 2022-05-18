@@ -1,27 +1,19 @@
-# from Crypto.Cipher import AES
-
-# key = b'Sixteen byte key'
-# cipher = AES.new(key, AES.MODE_EAX)
-
-# data=b'Hello World'
-# nonce = cipher.nonce
-
-# ciphertext, tag = cipher.encrypt_and_digest(data)
-
-# print(ciphertext)
-
-
 from Crypto.Cipher import AES
- 
-key = b'abcdefghijklmnop'
-data = '123345'
 
-cipher = AES.new(key, AES.MODE_ECB)
-msg =cipher.encrypt(data)
-print (type(msg))
- 
-print(msg.encode("hex"))
- 
-decipher = AES.new(key, AES.MODE_ECB)
-print(decipher.decrypt(msg))
+data = b'Hello'
+key = b'Sixteen byte key'
+cipher = AES.new(key, AES.MODE_EAX)
 
+nonce = cipher.nonce
+ciphertext, tag = cipher.encrypt_and_digest(data)
+
+# print(data)
+print(ciphertext)
+
+cipher = AES.new(key, AES.MODE_EAX, nonce=nonce)
+plaintext = cipher.decrypt(ciphertext)
+try:
+    cipher.verify(tag)
+    print("The message is authentic:", plaintext)
+except ValueError:
+    print("Key incorrect or message corrupted")
