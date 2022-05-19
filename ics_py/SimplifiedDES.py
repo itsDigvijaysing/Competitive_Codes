@@ -11,8 +11,8 @@ print ("cipher text: %r" % e)
 #%r to be useful for printing a string of unknown encoding
 print ("plain text: %r" % k.decrypt(e))
 # t1 = time()
-for i in range(1000):
-     e = k.encrypt(data)
+# for i in range(1000):
+#      e = k.encrypt(data)
 # t2 = time()
 
 # print("Elapsed time for 1,000 encryptions: {:0.3f}s".format(t2 - t1))
