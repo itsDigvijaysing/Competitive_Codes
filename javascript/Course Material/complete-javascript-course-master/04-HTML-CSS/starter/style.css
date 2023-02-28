@@ -1,0 +1,54 @@
+/* * to select all elements of page  */
+* {
+    /* Initially setting then we can over rule it */
+    margin: 0;
+    padding: 0;
+
+    /* maintain fix defined size even if we add margin & Padding */
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 199, 176);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 100px;
+    align-items: center;
+}
+form {
+    display: inline-block;
+}
+h1,h6 {
+    margin: 25px;
+}
+
+input,button {
+    font-size: 20px;
+    padding: 5px;
+}
+
+/* . for selecting style by class */
+.first {
+    color: blue;
+}
+
+/* # for selecting style for ID */
+#solo-man {
+    height: 400px;
+    width: 300px;
+}
+
+#your-data {
+    background-color: cornsilk;
+    
+    width: 500px;
+    border: 5px solid #ff0000;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+/* Child Selector so basically from ID your-data we selected h2 tag & then style that child - important in DOM*/
+#your-data h2 {
+    color: #ff0000;
+}
