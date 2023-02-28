@@ -18,7 +18,7 @@ console.log(isIsland+'\n'+population+'\n'+country+'\n'+language);
 language = 'Hindi';
 const myCountry = 'India';
 // We always need to define value to const & we can't change it later on
-*/
+
 
 //Basic Operators
 let population = 1400000000;
@@ -29,3 +29,6 @@ let description = 'India is in Asia, & its 1000 million people speak Hindi';
 if( population*2 > 33000000){
     console.log(description);
 }
+*/
+
+// String & Template Literals Assignment Solution

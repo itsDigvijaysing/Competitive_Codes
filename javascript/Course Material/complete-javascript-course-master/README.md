@@ -1,5 +1,6 @@
 # Course Material
-
+## Resources Link -
+- [Coding Heroes Resources](https://codingheroes.io/resources/)
 
 ### Q: Can I see a final version of the course projects?
 
