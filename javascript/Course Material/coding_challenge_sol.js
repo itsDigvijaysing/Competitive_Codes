@@ -14,7 +14,7 @@ Data 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m
 Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
 
 GOOD LUCK 😀
-*/
+
 const markMass = 95;
 const markHeight = 1.88;
 const johnMass = 85;
@@ -22,7 +22,7 @@ const johnHeight = 1.76;
 let markBMI = markMass / (markHeight**2);
 let johnBMI = johnMass / (johnHeight**2);
 console.log('Mark BMI '+markBMI.toFixed(2) +'\n'+'john BMI '+johnBMI.toFixed(2));
-
+*/
 
 ///////////////////////////////////////
 // Coding Challenge #2
@@ -35,8 +35,13 @@ Use the BMI example from Challenge #1, and the code you already wrote, and impro
 HINT: Use an if/else statement 😉
 
 GOOD LUCK 😀
-*/
 
+if(markBMI > johnBMI){
+    console.log(`Mark's BMI (${markBMI.toFixed(2)}) is higher than John's (${johnBMI.toFixed(2)}) !`);
+}else{
+    console.log(`John's BMI (${johnBMI.toFixed(2)}) is higher than Mark's (${markBMI.toFixed(2)}) !`);
+}
+*/
 ///////////////////////////////////////
 // Coding Challenge #3
 /*
@@ -53,6 +58,28 @@ TEST DATA BONUS 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123
 TEST DATA BONUS 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
 
 GOOD LUCK 😀
+
+
+const dolphinsScore1 = 97;
+const dolphinsScore2 = 112;
+const dolphinsScore3 = 101;
+const dolphinsAvgScore = (dolphinsScore1 + dolphinsScore2 + dolphinsScore3)/3;
+const kolasScore1 = 109;
+const kolasScore2 = 95;
+const kolasScore3 = 106;
+const kolasAvgScore = (kolasScore1 + kolasScore2 + kolasScore3)/3;
+
+console.log(dolphinsAvgScore , kolasAvgScore);
+
+if (dolphinsAvgScore > kolasAvgScore && dolphinsAvgScore >= 100) {
+    console.log(`Dolphins are Winner - Dolphins Score is Higher than Kolas`);
+} else if(kolasAvgScore > dolphinsAvgScore && kolasAvgScore >= 100 ) {
+    console.log(`Kolas are Winner - Kolas Score is Higher than Dolphins`);
+} else if(kolasAvgScore == dolphinsAvgScore && dolphinsAvgScore >= 100){
+    console.log(`Match is Draw - Kolas & Dolphins Score is Same`);
+} else {
+    console.log(`Both Teams Lost the Match as their Minimum score was less than 100`);
+}
 */
 
 ///////////////////////////////////////
@@ -69,6 +96,12 @@ HINT: To calculate 20% of a value, simply multiply it by 20/100 = 0.2
 HINT: Value X is between 50 and 300, if it's >= 50 && <= 300 😉
 
 GOOD LUCK 😀
+
+
+const bill = 275;
+// console.log(50<=bill && bill<=300); 
+let tip = (50<=bill && bill<=300 ? bill*15/100 : bill*20/100);
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill+tip}`);
 */
 
 // JavaScript Fundamentals – Part 2
