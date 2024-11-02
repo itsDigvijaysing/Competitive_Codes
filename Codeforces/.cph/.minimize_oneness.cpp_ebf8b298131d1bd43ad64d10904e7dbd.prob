@@ -1,1 +1,0 @@
-{"name":"Local: minimize_oneness","url":"/home/rajput/Documents/Competitive Prog/Codeforces/minimize_oneness.cpp","tests":[{"id":1729351374268,"input":"3\n1\n2\n3\n","output":"0\n01\n010\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/rajput/Documents/Competitive Prog/Codeforces/minimize_oneness.cpp","group":"local","local":true}
