@@ -1,0 +1,1 @@
+{"name":"Local: minStrLength","url":"/home/rajput/Documents/Competitive Prog/Leetcode/minStrLength.py","tests":[{"id":1728324353157,"input":"ABFCACDB","output":"2"},{"id":1728324368806,"input":"ACBBD","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/rajput/Documents/Competitive Prog/Leetcode/minStrLength.py","group":"local","local":true}

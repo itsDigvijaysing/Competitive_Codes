@@ -1,0 +1,1 @@
+{"name":"Local: Maximum_swap","url":"/home/rajput/Documents/Competitive Prog/Leetcode/Maximum_swap.py","tests":[{"id":1729186631010,"input":"2736","output":"7236"},{"id":1729186643032,"input":"9973","output":"9973"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/rajput/Documents/Competitive Prog/Leetcode/Maximum_swap.py","group":"local","local":true}
