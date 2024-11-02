@@ -12,14 +12,15 @@ Coding can be challenging, but every failure brings valuable lessons. This secti
 
 I am actively writing solutions for coding challenges on LeetCode and Codeforces. You can find almost all my solutions here to get an idea of my approach and style.
 
+## Kaggle
+
+In my free time, I plan to work on Kaggle projects to further explore data science and machine learning. Stay tuned for updates on this journey!
+
 ### Profiles
 
 - [LeetCode Profile](https://leetcode.com/u/itsDigvijaysing/)
 - [Codeforces Profile](https://codeforces.com/profile/itsDigvijaysing)
-
-## Kaggle
-
-In my free time, I plan to work on Kaggle projects to further explore data science and machine learning. Stay tuned for updates on this journey!
+- [Kaggle Profile](https://www.kaggle.com/itsdigvijaysing)
 
 ## Getting Started
 
