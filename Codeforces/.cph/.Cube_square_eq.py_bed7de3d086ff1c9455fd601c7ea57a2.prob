@@ -1,0 +1,1 @@
+{"name":"Local: Cube_square_eq","url":"/home/dbr/Documents/Competitive_Codes/Codeforces/Cube_square_eq.py","tests":[{"id":1738946419853,"input":"3\n1\n3\n10","output":"1 0\n14 13\n55 45"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/dbr/Documents/Competitive_Codes/Codeforces/Cube_square_eq.py","group":"local","local":true}
